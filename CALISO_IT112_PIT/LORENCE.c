@@ -18,23 +18,23 @@ int main() {
     } 
     else if (grade >= 90 && grade <= 100) {
         printf(" Descriptive Rating : Outstanding\n");
-        printf(" Remarks            : PASSED ✅\n");
+        printf(" Remarks            : PASSED \n");
     } 
     else if (grade >= 85 && grade <= 89) {
         printf(" Descriptive Rating : Very Satisfactory\n");
-        printf(" Remarks            : PASSED ✅\n");
+        printf(" Remarks            : PASSED \n");
     } 
     else if (grade >= 80 && grade <= 84) {
         printf(" Descriptive Rating : Satisfactory\n");
-        printf(" Remarks            : PASSED ✅\n");
+        printf(" Remarks            : PASSED \n");
     } 
     else if (grade >= 75 && grade <= 79) {
         printf(" Descriptive Rating : Fairly Satisfactory\n");
-        printf(" Remarks            : PASSED ✅\n");
+        printf(" Remarks            : PASSED \n");
     } 
     else {
         printf(" Descriptive Rating : Did Not Meet Expectations\n");
-        printf(" Remarks            : FAILED ❌\n");
+        printf(" Remarks            : FAILED \n");
     }
 
     printf("-------------------------------------\n");
@@ -42,4 +42,5 @@ int main() {
     printf("=====================================\n");
 
     return 0;
+
 }
